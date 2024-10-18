@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "install-backend": "cd BACKEND && npm install",
+    "install-frontend": "cd FRONTEND && npm install",
+    "start-backend": "npm start --prefix BACKEND",
+    "start-frontend": "npm start --prefix FRONTEND",
+    "build": "npm run build --prefix FRONTEND",
+    "postinstall": "npm run install-backend && npm run install-frontend",
+    "start": "npm start --prefix BACKEND",
+    "heroku-postbuild": "cd FRONTEND && npm install && npm run build"
+
+  }
+}
