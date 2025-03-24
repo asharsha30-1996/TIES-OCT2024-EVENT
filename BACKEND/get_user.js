@@ -1,7 +1,7 @@
 const csvtojson = require('csvtojson');
 const mongodb = require('mongodb');
 
-const url = "mongodb+srv://rithvik:rithvik@event.eovstts.mongodb.net/?retryWrites=true&w=majority";
+const url = "mongodb+srv://asharsha30:$SaiMurugan1996@cluster0.hv9ii.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 let dbConn;
 
 mongodb.MongoClient.connect(url, {
