@@ -4,7 +4,7 @@ const csvParser = require('csv-parser');
 const mongoose = require('mongoose');
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://rithvik:rithvik@event.eovstts.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://asharsha30:$SaiMurugan1996@cluster0.hv9ii.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
