@@ -19,7 +19,7 @@ app.use((req, res, next) => {
 });
 
 // Establish connection to MongoDB
-const url = "mongodb+srv://rithvik:rithvik@event.eovstts.mongodb.net/?retryWrites=true&w=majority";
+const url = "mongodb+srv://asharsha30:$SaiMurugan1996@cluster0.hv9ii.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 const dbName = "test"; // Replace with your database name
 mongodb.MongoClient.connect(url, { useUnifiedTopology: true })
   .then(client => {
