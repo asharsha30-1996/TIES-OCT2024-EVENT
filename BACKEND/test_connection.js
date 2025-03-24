@@ -8,7 +8,7 @@ const app = express();
 
 app.use(express.json())
 
-mongoose.connect('mongodb+srv://rithvik:rithvik@event.eovstts.mongodb.net/?retryWrites=true&w=majority/event', {
+mongoose.connect('mongodb+srv://asharsha30:$SaiMurugan1996@cluster0.hv9ii.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
   
 useUnifiedTopology: true
 })
