@@ -4,7 +4,7 @@ function WelcomeMessage() {
   return (
     <div className="welcome-message">
     <p>Welcome to the </p><p>TIES Sales Showdown </p>
-    <p>October 25 2025</p>
+    <p>March 27 2025</p>
     </div>
   );
 }
